@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageId>Aleniq.$(AssemblyName)</PackageId>
+	  <Title>SqlToTableData for SqlServer</Title>
+	  <Description>Get SQL SELECT query result as a table (2 dimensional array). This package only works with SQL Server databases.</Description>
+	  <Authors>Aleniq Inc</Authors>
+	  <Company>Aleniq Inc.</Company>
+	  <Copyright>Copyright (c) Aleniq Inc. 2025</Copyright>
+	  <AssemblyVersion>1.0.1.0</AssemblyVersion>
+	  <FileVersion>1.0.1.0</FileVersion>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <Version>1.0.1</Version>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+    <PackageReference Include="System.Text.Json" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
