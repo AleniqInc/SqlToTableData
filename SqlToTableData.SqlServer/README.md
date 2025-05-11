@@ -14,7 +14,7 @@ string connectionString = "Server=(localdb)\\mssqllocaldb;Database=SampleDB";
 DataProducer dataProducer = new DataProducer(connectionString);
 
 // construct your SQL SELECT query
-string sqlQuery = "SELECT ID, PRODUCT_NANE, PRICE FROM PRODUCT";
+string sqlQuery = "SELECT ID, NAME, PRICE FROM PRODUCT";
 
 // call DataProducer method to get results as a table
 var result = dataProducer.GetTable(sqlQuery);
