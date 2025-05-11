@@ -33,4 +33,6 @@ For SQL query **SELECT ID, NAME, PRICE FROM PRODUCT**, result would look like th
 The first row (result[0]) conains array of strings representing column names.
 
 
+## Demo Application
 
+[Angular client and ASP.NET Core server demonstrating usage of the package](https://github.com/AleniqInc/SqlToTableData.Demo)
