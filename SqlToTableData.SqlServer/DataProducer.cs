@@ -60,9 +60,7 @@ namespace SqlToTableData.SqlServer
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
 
-                SqlCommand command = new(
-                  "SELECT CategoryID, CategoryName FROM Categories;",
-                  connection);
+                SqlCommand command = new(sqlQuery, connection);
 
                 connection.Open();
 #if DEBUG

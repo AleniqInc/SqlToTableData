@@ -9,11 +9,11 @@
 	  <Authors>Aleniq Inc</Authors>
 	  <Company>Aleniq Inc.</Company>
 	  <Copyright>Copyright (c) Aleniq Inc. 2025</Copyright>
-	  <AssemblyVersion>1.0.1.0</AssemblyVersion>
-	  <FileVersion>1.0.1.0</FileVersion>
+	  <AssemblyVersion>1.0.2.0</AssemblyVersion>
+	  <FileVersion>1.0.2.0</FileVersion>
 	  <IncludeSymbols>True</IncludeSymbols>
 	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-	  <Version>1.0.1</Version>
+	  <Version>1.0.2</Version>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
