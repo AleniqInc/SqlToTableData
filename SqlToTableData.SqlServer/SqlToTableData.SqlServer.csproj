@@ -6,7 +6,7 @@
 	  <PackageId>Aleniq.$(AssemblyName)</PackageId>
 	  <Title>SqlToTableData for SqlServer</Title>
 	  <Description>Get SQL SELECT query result as a table (2 dimensional array). This package only works with SQL Server databases.</Description>
-	  <Authors>Aleniq Inc</Authors>
+	  <Authors>Aleniq Inc.</Authors>
 	  <Company>Aleniq Inc.</Company>
 	  <Copyright>Copyright (c) Aleniq Inc. 2025</Copyright>
 	  <AssemblyVersion>1.0.2.0</AssemblyVersion>
@@ -16,6 +16,7 @@
 	  <Version>1.0.2</Version>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	  <RepositoryUrl>https://github.com/AleniqInc/SqlToTableData</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
